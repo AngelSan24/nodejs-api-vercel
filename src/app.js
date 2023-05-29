@@ -3,11 +3,7 @@ const express = require("express"); // Requerir modulo
 const app = express(); // Iniciar app
 
 app.use('/', (req, res) => {
-    res.send('Hola desde el Servidor.');
-});
-
-app.get('/api', (req, res) => {
-    res.send('Hola desde la API.');
+    res.send('<table><tr>ASD</tr></table>.');
 });
 
 module.exports = app;
