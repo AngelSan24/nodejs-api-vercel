@@ -6,8 +6,6 @@ app.use('/', (req, res) => {
     res.send('Hola desde el Servidor.');
 });
 
-app.use('/api');
-
 app.get('/api', (req, res) => {
     res.send('Hola desde la API.');
 });
